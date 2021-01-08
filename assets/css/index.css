@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* iframe窗口 */
+
+.layui-body {
+    overflow: hidden;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.layui-nav-item a {
+    font-size: 13px;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-bottom: 1px solid #282b33;
+}
+
+.user_name {
+    font-size: 12px;
+    user-select: none;
+}
+
+.layui-nav-img {
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.icoAvatar {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #009688;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.iconfont,
+.layui-icon {
+    margin-right: 10px;
+}
+
+.layui-footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+.layui-nav .layui-nav-item dd {
+    margin-left: 13px;
+}
