@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.out_box {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.cropper-box {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+}
+
+.preview-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.img-preview {
+    background-color: #ccc;
+}
+
+.w100 {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.w50 {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.btns {
+    width: 500px;
+    margin-top: 15px;
+    text-align: right;
+}
